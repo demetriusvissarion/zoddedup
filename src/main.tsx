@@ -68,8 +68,8 @@ const brandEmail = z
     message: "Email must end with @h3h3.com",
   });
 
-const email1 = "test@test.com";
-// const email2 = "test@h3h3.com";
+// const email1 = "test@test.com";
+const email2 = "test@h3h3.com";
 
-console.log(brandEmail.parse(email1));
-// console.log(brandEmail.parse(email2));
+// console.log(brandEmail.parse(email1));
+console.log(brandEmail.parse(email2));
